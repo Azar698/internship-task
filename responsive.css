@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+@media screen and (max-width: 600px) {
+    .nav-container{
+       display: none; 
+    }
+    .hero-section{
+        width:100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section div{
+        align-items: flex-end;
+        padding: 0rem 2rem;
+        width: 100vw;
+
+    }
+    .hero-text{
+        font-size: 18px;
+    }
+    .hero-description{
+        font-size: 12px;
+    }
+    .nav-mobile-container{
+        display: block;
+        height: 100px;
+        width: 100vw;
+        cursor: pointer;
+    }
+    .nav-mobile-container div{
+        margin-top: 15px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        gap: 60%;
+    }
+    .content-container{
+      margin-top: 15px;
+    }
+    .left-arrow{
+        position: relative;
+        fill: #fff;
+        right: 2.4rem;
+    }
+    .join-btn{
+        background-color: transparent;
+        border: #fff solid 2px;
+        border-radius: 7px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px;
+    }
+    .join-btn:hover{
+        border: #9c9898 solid 2px;
+        color: #9c9898;
+    }
+
+    .posts-options ul li:nth-child(2),.posts-options ul li:nth-child(3),.posts-options ul li:nth-child(4){
+        display: none;
+    }
+    .button-section .join-button{
+        display: none;
+    }
+    .post-card{
+        width:100%;
+        margin-bottom: 6px;
+    }
+    .post-heading{
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .post-question{
+        font-size: 12px;
+    }
+    .option-icon{
+        display: none;
+    }
+    .post-description{
+        font-size: 10px;
+    }
+    .profile-pic{
+        height: 35px;
+        width: 35px;
+    }
+    .name{
+        font-size: 13px;
+    }
+    .view-section{
+        display: none;
+        margin-left: 25px;
+    }
+    .share-section{
+        position: relative;
+        left: 4.2rem;
+    }
+    .location-section{
+        display: none;
+    }
+    .event-date{
+        font-size:12px;
+    }
+    .job-section{
+        width: 100%;
+        padding: 10px;
+    }
+    .account-pop{
+        display: none;
+    }
+    .sign-in-section{
+        display: none;
+    }
+}
